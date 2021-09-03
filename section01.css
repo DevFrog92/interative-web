@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.box-container {
+  display: flex;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+  background: rgba(255,255,0,0.7);
+  transition: width 1s;
+}
+
+.box:hover {
+  width: 200px;
+  background:dodgerblue;
+  /* transform: scale(2) rotate(15deg); */
+  /* transform: skewY(-30deg); */
+  /* transform: translate(30px,10px); */
+  /* transform: translateX(30px); */
+  /* transform:perspective(100px) translateZ(-30px); */
+  /* transform-origin: bottom left; */
+  /* transform-origin: 100% 100%; */
+  /* transform: scale(2) ; */
+}
